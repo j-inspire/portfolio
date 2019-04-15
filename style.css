@@ -1,0 +1,178 @@
+body{
+	font-family: "berlin san FB";
+}
+
+h1, .h1 {
+	font-family: "impact";
+  	font-size: 2rem;
+  	line-height: 1.4;
+}
+
+h2{
+	font-family: "impact";
+  	font-size: 2rem;
+  	line-height: 1.5;
+}
+
+h3{
+	font-family:  'bauhaus 93';
+	font-size: 1rem;
+	margin-top: 7px;
+}
+
+
+
+.sec1{
+	background-color: #90afc5;
+}
+
+.container-fluid{
+	padding: 3% 15%;
+}
+
+.light-title{
+	color: white;
+}
+
+
+.navbar{
+	padding:0 0 4rem;
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.download-btn{
+	margin: 5% 3% 5% 0;
+}
+
+.rotated{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	right: 20%;
+	transform: rotate(18deg);
+}
+
+/*features*/
+
+#features{
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+}
+
+.features-box{
+	text-align: center;
+	padding: 5%;
+}
+
+.feature-text{
+	color: grey;
+	font-size: 14px;
+}
+
+.f1-img{
+	color: #90afc5;
+}
+
+.f1-img:hover{
+	color: #ff4c68;
+	width: 20%;
+}
+
+/*testimonial section*/
+
+#Testimonies{
+	text-align: center;
+	background-color: #90afc5;
+	color: white;
+}
+
+.testimonies-img{
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+#Press{
+	background-color: #90afc5;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.press-img{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+
+}
+
+/*pricing section*/
+
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+
+.pricing-col{
+	padding: 3% 2%;
+}
+
+/*call to action section*/
+#cta{
+	background-color: #90afc5;
+	text-align: center;
+	padding: 7% 15%;
+}
+
+.cta-text{
+	color: #fff;
+	font-family: "impact";
+  	font-size: 2rem;
+  	line-height: 1.4;
+  	margin: auto;
+  	width: 50%;
+}
+
+/*footer section*/
+
+footer{
+	padding:7% 15%;
+	text-align: center;
+	color: grey;
+}
+
+.foot-icon{
+	margin: 15px 7px;
+}
+
+.foot-icon:hover{
+	width: 3%;
+}
+
+
+
+
+
+/*media query*/
+
+@media (max-width: 1028px){
+	.rotated{
+		position: static;
+		transform: rotate(0deg);
+	}
+
+	.sec1{
+		text-align: center;
+	}
+
+}
